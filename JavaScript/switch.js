@@ -1,4 +1,3 @@
-/*
 let weekDay = "Thursday";
 
 switch (weekDay) {
@@ -27,4 +26,34 @@ switch (weekDay) {
     console.log("Not a day");
 }
 
-*/
+const fruits = 4;
+
+switch (fruits) {
+  case 0:
+    console.log("banana");
+    break;
+  case 1:
+    console.log("apple");
+    break;
+  case 2:
+    console.log("orange");
+    break;
+  case 3:
+    console.log("mango");
+    break;
+  default:
+    throw new Error("Invalid Number");
+}
+
+let theme = "dark";
+let bgColor = theme == "dark" ? "#333333" : "#efefef";
+
+console.log(bgColor);
+
+if (theme == "dark") {
+  bgColor = "#333333";
+} else {
+  bgColor = "#efefef";
+}
+
+console.log(bgColor);
