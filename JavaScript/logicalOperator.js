@@ -13,8 +13,24 @@
 //   console.log("Biya korte parbe na");
 // }
 
-let bill = 500;
+// let bill = 500;
 
-if (bill >= 500) {
-    vat = bill * .15
+// if (bill >= 500) {
+//     vat = bill * .15
+// }
+
+const yourAge = 40;
+const yourBrotherAge = 40;
+
+const whoIsElder = yourAge > yourBrotherAge;
+
+// console.log(whoIsElder);
+
+if (yourAge > yourBrotherAge) {
+  console.log("I am Elder");
+}else if(yourAge == yourBrotherAge){
+    console.log("Both are same age")
+}
+ else {
+  console.log("My Brother Is Elder");
 }
