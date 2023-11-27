@@ -25,9 +25,19 @@
 
 // ----------------While--------------
 
-let number = 1;
+// let number = 1;
 
-while (number <= 10) {
-  console.log(number);
-  number++;
-}
+// while (number <= 10) {
+//   console.log(number);
+//   number++;
+// }
+
+// let sum = 0;
+// let i = 1;
+
+// while (i <= 5) {
+//   // sum += i;
+//   sum = sum + i;
+//   i++;
+// }
+// console.log(sum);
