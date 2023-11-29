@@ -50,3 +50,8 @@ console.log(arrName.indexOf("Kamal"));
 // names.push('dola + Raihan')
 // names[names.length] = "Habib";
 // console.log(names);
+
+let x = [1, 2, 3];
+let y = [1, 2, 3];
+let z = x === y;
+console.log(z);
