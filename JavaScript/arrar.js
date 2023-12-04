@@ -51,7 +51,13 @@ console.log(arrName.indexOf("Kamal"));
 // names[names.length] = "Habib";
 // console.log(names);
 
-let x = [1, 2, 3];
-let y = [1, 2, 3];
-let z = x === y;
-console.log(z);
+// let x = [1, 2, 3];
+// let y = [1, 2, 3];
+// let z = x === y;
+// console.log(z);
+
+let x = 0.1
+let y = 0.2
+let z = x + y
+console.log(z === 0.3)
+
