@@ -25,7 +25,7 @@ let arrName = ["Raihan", "Anik", "Kamal", "Jamal"];
 // arrName.unshift("I am new");
 // arrName.indexOf('Raihan')
 // console.log(arrName.indexOf('Kamal'));
-console.log(arrName.indexOf("Kamal"));
+// console.log(arrName.indexOf("Kamal"));
 
 // const arr = [];
 // arr[0] = 1;
@@ -56,8 +56,23 @@ console.log(arrName.indexOf("Kamal"));
 // let z = x === y;
 // console.log(z);
 
-let x = 0.1
-let y = 0.2
-let z = x + y
-console.log(z === 0.3)
+// let x = 0.1
+// let y = 0.2
+// let z = x + y
+// console.log(z === 0.3)
 
+let numbers = [1, 2, 3, 4, 5,6,7,8,9,10];
+
+let sum = 0;
+
+for (i = 1; i <= numbers.length; i++) {
+  sum = sum + i;
+}
+
+console.log(sum);
+
+// sum = 0; i = 1; = 1
+// sum = 1; i = 2; = 3
+// sum = 3 i = 3; = 6
+// sum = 6; i = 4; = 10;
+// sum = 10; i = 5; = 15;
