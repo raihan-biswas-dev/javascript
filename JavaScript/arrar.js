@@ -95,7 +95,7 @@ for (let i = 1; i < numbers.length; i++) {
 
 console.log(lergestNumber);
 
-*/
+
 
 
 let numbers = [61, 27, 3, 44, 75, 66, 77, 48, 19, 11,99];
@@ -109,3 +109,17 @@ for (let i = 1; i < numbers.length; i++) {
 }
 
 console.log(lowestNumber);
+
+*/
+
+let numbers = [10, 34, 56, 78, 45, 53, 15, 234, 57];
+
+let largestNumber = numbers[0];
+
+for (i = 1; i < numbers.length; i++) {
+  if (numbers[i] > largestNumber) {
+    largestNumber = numbers[i];
+  }
+}
+
+console.log(largestNumber)
