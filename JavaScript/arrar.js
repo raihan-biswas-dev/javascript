@@ -112,14 +112,14 @@ console.log(lowestNumber);
 
 */
 
-let numbers = [10, 34, 56, 78, 45, 53, 15, 234, 57];
+let numbers = [10, 34, 56, 78, 45, 53, 15, 24, 57];
 
-let largestNumber = numbers[0];
+let largestnumber = numbers[0];
 
-for (i = 1; i < numbers.length; i++) {
-  if (numbers[i] > largestNumber) {
-    largestNumber = numbers[i];
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] > largestnumber) {
+    largestnumber = numbers[i];
   }
 }
 
-console.log(largestNumber)
+console.log(largestnumber);
