@@ -110,9 +110,9 @@ for (let i = 1; i < numbers.length; i++) {
 
 console.log(lowestNumber);
 
-*/
 
-let numbers = [10, 34, 56, 78, 45, 53, 15, 24, 57];
+
+let numbers = [10, 34, 56, 78, 45, 53, 15, 234, 57];
 
 let largestnumber = numbers[0];
 
@@ -123,3 +123,15 @@ for (let i = 1; i < numbers.length; i++) {
 }
 
 console.log(largestnumber);
+
+*/
+
+
+let response = new Array(9);
+
+response.fill(false);
+for(let i = 0; i < response.length; i++){
+  let rand = Math.floor(Math.random() * 10 + 1);
+  response[i] = rand > 5 ? 'X' : 'O'
+}
+console.log(response)
