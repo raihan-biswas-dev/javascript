@@ -199,5 +199,8 @@ function update(arr) {
   return arr;
 }
 
-update(names);
+let updatedArr = update(names);
+console.log(updatedArr);
 console.log(names);
+
+console.log(names === updatedArr);
