@@ -13,7 +13,7 @@ console.log(arrName["length"]); // Brackets Notation
 
 */
 
-let arrName = ["Raihan", "Anik", "Kamal", "Jamal"];
+// let arrName = ["Raihan", "Anik", "Kamal", "Jamal"];
 
 // for (i = 0; i < arrName.length; i++) {
 //   console.log("Name : ", arrName[i]);
@@ -138,11 +138,41 @@ console.log(response)
 
 */
 
-let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-let sum = 0;
+// let sum = 0;
 
-for (let i = 0; i < numbers.length; i++) {
-  sum += numbers[i];
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+// console.log(sum);
+
+/*
+
+let numbers = [12, 45, 42, 11, 71, 84, 67, 89, 99];
+
+let largestNumber = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] > largestNumber) {
+    largestNumber = numbers[i];
+  }
 }
-console.log(sum);
+
+console.log(largestNumber);
+
+
+
+let numbers = [12, 45, 42, 11, 71, 84, 67, 89, 99,3];
+
+let smallestNumber = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] < smallestNumber) {
+    smallestNumber = numbers[i];
+  }
+}
+
+console.log(smallestNumber);
+
+*/
