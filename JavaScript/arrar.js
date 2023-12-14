@@ -176,3 +176,14 @@ for (let i = 1; i < numbers.length; i++) {
 console.log(smallestNumber);
 
 */
+
+let arr = new Array(9);
+// arr.fill(false);
+
+for(let i = 0; i < arr.length; i++){
+  let rand = Math.floor(Math.random()* 10 + 1)
+
+  arr[i] = rand > 5? "X" : "O"
+}
+
+console.log(arr)
