@@ -175,7 +175,7 @@ for (let i = 1; i < numbers.length; i++) {
 
 console.log(smallestNumber);
 
-*/
+
 
 let arr = new Array(9);
 // arr.fill(false);
@@ -187,3 +187,17 @@ for(let i = 0; i < arr.length; i++){
 }
 
 console.log(arr)
+
+*/
+
+let names = ["Raihan", "Anik", "kamal", "jamal", "Hemel"];
+
+function update(arr) {
+  for (let i = 0; i < names.length; i++) {
+    arr[i] = `${i + 1}. ${arr[i]}`;
+  }
+  return arr;
+}
+
+update(names);
+console.log(names);
