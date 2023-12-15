@@ -11,5 +11,5 @@ let b = 20;
 
 for (let i = 0; i < funcs.length; i++) {
   results = funcs[i](a, b);
-  console.log(results);
+  console.log(`${[funcs[i].name]} Results = ${results}`);
 }
