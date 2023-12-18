@@ -1,3 +1,5 @@
+/*
+
 let matrixA = [
   [1, 2, 3],
   [4, 5, 6],
@@ -22,4 +24,32 @@ let matrixSum = (matrixA, matrixB) => {
   return results;
 };
 let matrixC = matrixSum(matrixA, matrixB);
+console.log(matrixC);
+*/
+
+let matrixA = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+let matrixB = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+sumMatrix = (matrixA, matrixB) => {
+  let result = [];
+  for (let i = 0; i < matrixA.length; i++) {
+    let row = [];
+    for (let j = 0; j < matrixB[i].length; j++) {
+      row.push(matrixA[i][j] + matrixB[i][j]);
+    }
+    result.push(row);
+  }
+  return result;
+};
+
+let matrixC = sumMatrix(matrixA, matrixB);
 console.log(matrixC);
