@@ -5,23 +5,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript DOM</title>
+
+    <script>
+        function myfunc() {
+            document.getElementById('myp').innerHTML = "I am From Function.";
+        }
+    </script>
 </head>
 
+
+
+
 <body>
-    <h2>javaScript can change html elements</h2>
+
+    <p id="myp"> This will call from My Function</p>
+
+    <button onclick="myfunc()">Try it!</button>
+
+    <!-- <h2>javaScript can change html elements</h2>
 
 
-    <!-- <p id="demo">JavaScript can change HTML content.</p> -->
-    <p id="name">Lorem ipsum dolor sit.</p>
+    <p id="demo">JavaScript can change HTML content.</p>
+    <p id="name">Hi Am am JsavaScript</p>
 
-    <!-- <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button> -->
-    <!-- <button type="button" onclick='document.getElementById("name").innerHTML = "Hello JavaScript"'>Click Me!</button> -->
-
+    <button type="button" onclick='document.getElementById("name").innerHTML = "Hello JavaScript!"'>Click Me!</button>
 
 
-    <button onclick="document.getElementById('bulbImage').src='../images/pic_bulbon.gif'">Turn On The Light</button>
+    <button onclick="document.getElementById('bulbImage').src='../images/pic_bulbon.gif'">Turn On Light</button>
+
     <img src="../images/pic_bulboff.gif" id="bulbImage" alt="" style="width: 200px;">
-    <button onclick="document.getElementById('bulbImage').src='../images/pic_bulboff.gif'">Turn Of The Light</button>
+    <button onclick="document.getElementById('bulbImage').src='../images/pic_bulboff.gif'">Turn Off Light</button> -->
+
+
+
+
+
+    <p id="para">Hello I am Paragraph</p>
+    <button onclick="document.getElementById('para').style.fontSize='30px'">Push Me To Change Text
+        Style</button>
+
+    <p id="rem">Hit Me To Hide Me!</p>
+    <button onclick="document.getElementById('rem').style.display='none'">Hit Me To Hide Me!</button>
+
+
+
+    <p id="showMe" style="display:none">Hello JavaScript!</p>
+
+
+
+    <p id="addnum"></p>
+
+    <script>
+        document.getElementById("addnum").innerHTML = 10 + 6; // 01
+        document.write(6 + 6); // 02
+        // window.alert(1 + 1);
+        console.log(5 + 6)
+    </script>
+
+    <button onclick="window.print()">Print Me!</button>
+    <button onclick="document.write(5+4)">Try it to add 6 + 5</button>
+    <!-- Using document.write() after an HTML document is loaded, will delete all existing HTML: -->
+    <!-- The document.write() method should only be used for testing. -->
+
+
+
+
+
 </body>
 
 </html>
