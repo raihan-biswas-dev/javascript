@@ -13,7 +13,7 @@
     <p id="pushsomething"></p>
     <p id="mycar"></p>
 
-
+    <p id="func"></p>
 
     <script>
         // let x, y, z;
@@ -21,6 +21,9 @@
         // y = 6;
         // z = x + y;
         // document.getElementById('pushsomething').innerHTML = "The Value Is of " + z + "."
+
+
+
 
 
 
@@ -40,10 +43,48 @@
 
         //        The >>= Operator
         // The Right Shift Assignment Operato
-        let x = 16;
+        // let x = 16;
 
-        x >>= 3;
-        console.log(x)
+        // x >>= 3;
+        // console.log(x)
+
+
+        // let x = 10;
+        // x &= 2;
+        // document.write(x)
+
+
+
+        let x = myFunction(3, 4);
+
+        document.getElementById('func').innerHTML = x
+
+        function myFunction(a, b) {
+            return a * b;
+        }
+
+        // function toCelsius(f) {
+        //     return (5 / 9) * (f - 32);
+        // }
+
+        // let value = toCelsius(77);
+        // console.log(value)
+
+        function toCelsius(fahrenheit) {
+            return (5 / 9) * (fahrenheit - 32);
+        }
+
+        let value = toCelsius(102);
+        console.log(value)
+
+
+
+        // let x = myFunction(4, 3);
+        // document.getElementById("func").innerHTML = x;
+
+        // function myFunction(a, b) {
+        //     return a * b;
+        // }
     </script>
 </body>
 
