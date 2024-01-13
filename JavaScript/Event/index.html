@@ -12,6 +12,36 @@
 
     <p id="myEvent"></p>
     <button onclick="document.getElementById('myEvent').innerHTML = Date()">Click for time</button>
+    <button onclick="this.innerHTML = Date()">Click me</button>
+
+
+
+    <button onclick="timeFunc()">My time</button>
+    <p id="mypara"></p>
+
+    <p id="myText"></p>
+    <p id="myText2"></p>
+
+
+    <script>
+        function timeFunc() {
+            document.getElementById('mypara').innerHTML = Date();
+        }
+
+        let a = "I'm Raihan";
+        let b = "I'm anik";
+        let c = a + " " + b;
+        console.log(c)
+
+        let text = `He's often called "Johnny"`;
+
+        let text2 = "Hello I'm Raihan \"This is Quote \"  Hi ";
+
+        document.getElementById('myText').innerHTML = text;
+        document.getElementById('myText2').innerHTML = text2;
+    </script>
+
+
 </body>
 
 </html>
