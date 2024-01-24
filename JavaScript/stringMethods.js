@@ -63,3 +63,17 @@
 // console.log(newText);
 
 // ------------------JavaScript String split()-------------
+
+// let text = "Hello";
+// const myArr = text.split("");
+
+// console.log(myArr);
+
+// let name = "My name is Raihan biswas";
+
+// let myname = name.indexOf("Raihan");
+// console.log(myname);
+
+let text = "Please locate where 'locate' occurs!";
+let index = text.lastIndexOf("locate");
+console.log(index);
