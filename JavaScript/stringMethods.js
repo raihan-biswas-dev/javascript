@@ -74,6 +74,10 @@
 // let myname = name.indexOf("Raihan");
 // console.log(myname);
 
-let text = "Please locate where 'locate' occurs!";
-let index = text.lastIndexOf("locate");
-console.log(index);
+// let text = "Please locate Raihan locate  where 'locate'  occurs!";
+// let index = text.lastIndexOf("Raihan", 20);
+// console.log(index);
+
+let text = "The rain in SPAIN stays mainly in the plain";
+const myArr = text.match("ain");
+console.log(myArr);
