@@ -78,6 +78,33 @@
 // let index = text.lastIndexOf("Raihan", 20);
 // console.log(index);
 
-let text = "The rain in SPAIN stays mainly in the plain";
-const myArr = text.match("ain");
-console.log(myArr);
+// let text = "The rain in SPAIN stays mainly in the plain";
+// const myArr = text.match("ain");
+// console.log(myArr);
+
+// let text =
+//   "I love cats. Cats are very easy to love. Cats are very popular cats.";
+// const iterator = text.matchAll(/Cats/gi);
+// document.write(Array.from(iterator));
+
+// let header = "Template Strings";
+// let tags = ["template strings", "javascript", "es6"];
+
+// let html = `<h2>${header}</h2><ul>`;
+// for (const x of tags) {
+//   html += `<li>${x}</li>`;
+// }
+
+// html += `</ul>`;
+
+let header = "This is Heading";
+let bullet = ["Templae String", "JavaScript", "Es6"];
+
+let html = `<h2>${header} ${bullet}</h2> <ul>`;
+
+for (const x of bullet) {
+  html += `<li>${x}</li>`;
+}
+
+html += `</ul>`;
+document.write(html);
