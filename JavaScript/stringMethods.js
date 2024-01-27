@@ -97,14 +97,14 @@
 
 // html += `</ul>`;
 
-let header = "This is Heading";
-let bullet = ["Templae String", "JavaScript", "Es6"];
+// let header = "This is Heading";
+// let bullet = ["Templae String", "JavaScript", "Es6"];
 
-let html = `<h2>${header} ${bullet}</h2> <ul>`;
+// let html = `<h2>${header} ${bullet}</h2> <ul>`;
 
-for (const x of bullet) {
-  html += `<li>${x}</li>`;
-}
+// for (const x of bullet) {
+//   html += `<li>${x}</li>`;
+// }
 
-html += `</ul>`;
-document.write(html);
+// html += `</ul>`;
+// document.write(html);
