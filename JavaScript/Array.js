@@ -190,6 +190,7 @@ console.log(arr)
 
 */
 
+/*
 let names = ["Raihan", "Anik", "kamal", "jamal", "Hemel"];
 
 function update(arr) {
@@ -203,4 +204,10 @@ let updatedArr = update(names);
 console.log(updatedArr);
 console.log(names);
 
-console.log(names === updatedArr);
+console.log(names === updatedArr);s
+
+*/
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("demo").innerHTML = fruits.toString();
+console.log(fruits);

@@ -78,6 +78,7 @@ console.log(d);
 */
 
 // valueOf() returns a number as a number.
+// All JavaScript data types have a valueOf() and a toString() method.
 
 /*
 let x = 123;
@@ -88,4 +89,35 @@ c = (100 + 23).valueOf();
 console.log(a);
 console.log(b);
 console.log(c);
+*/
+
+/*
+Converting Variables to Numbers
+There are 3 JavaScript methods that can be used to convert a variable to a number:
+
+Method	Description
+Number()	Returns a number converted from its argument.
+parseFloat()	Parses its argument and returns a floating point number
+parseInt()	Parses its argument and returns a whole number
+*/
+
+// let a = Number(new Date("1970-01-01"));
+// console.log(a);
+
+/*
+a = parseInt("-10");
+b = parseInt("-10.33");
+c = parseInt("10");
+d = parseInt("10.33");
+e = parseInt("10 20 30");
+f = parseInt("10 years");
+g = parseInt("years 10");
+
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);
+console.log(g);
 */
