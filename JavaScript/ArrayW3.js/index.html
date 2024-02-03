@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="arr.js"></script>
+</head>
+
+<body>
+    <p id="list"></p>
+
+
+    <div class="demo"></div>
+
+
+    <script>
+        /*
+         const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+        text = "<ul>"
+        text += "</ul>"
+        fruits.forEach(myFunction)
+
+        function myFunction(value) {
+            text += "<li>" + value + "</li>"
+            
+        document.getElementById('list').innerHTML = text
+
+        // ----------------------
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+        console.log(fruits.toString())
+        console.log(fruits)
+        }
+        */
+
+
+        const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+        let text = "<ul>"
+        fruits.forEach(myFunction)
+        text += "</ul>"
+
+        function myFunction(value) {
+            text += "<li>" + value + "</li>"
+        }
+
+        console.log(text)
+        document.write(text)
+    </script>
+</body>
+
+</html>
