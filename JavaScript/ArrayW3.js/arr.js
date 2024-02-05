@@ -31,4 +31,9 @@
 // let st = younus.sort();
 // console.log(younus.reverse());
 
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.write(fruits.copyWithin(2, 1));
 
+const fruits = ["Banana", "Orange", "Apple", "Mango", "Kiwi", "Pineapple"];
+fruits.copyWithin(2, 0, 2);
+console.log(fruits);
