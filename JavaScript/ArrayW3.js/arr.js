@@ -71,9 +71,7 @@ console.log(newArr);
 // fruits.sort();
 // console.log(fruits);
 
-
-/*  */
-
+/* 
 // ----------------Find() Method
 
 const numbers1 = [4, 9, 16, 25, 29, 18];
@@ -107,3 +105,7 @@ const temp2 = [27, 28, 30, 40, 42, 35, 30];
 let post = temp2.findLastIndex((x) => x > 40);
 
 console.log(post); // 4
+
+*/
+
+
